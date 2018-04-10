@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+    Author: https://github.com/ntosguy
+    Date: 04/10/2018
+*/
+
 namespace XenoParser
 {
     public class XenoParse
