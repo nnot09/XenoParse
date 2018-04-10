@@ -78,7 +78,7 @@ namespace XenoParser
                         {
                             if ( i + 1 >= args.Length )
                             {
-                                Console.WriteLine("[ERROR] The parameter \"{0}\" requires an additional argument.", arg);
+                                Console.WriteLine("[ERROR] The argument \"{0}\" requires an additional parameter.", arg);
                                 return;
                             }
 
@@ -86,7 +86,7 @@ namespace XenoParser
 
                             if ( string.IsNullOrWhiteSpace(extraArgument) )
                             {
-                                Console.WriteLine("[ERROR] The parameter \"{0}\" has an invalid argument.", arg);
+                                Console.WriteLine("[ERROR] The argument \"{0}\" has an invalid parameter.", arg);
                                 return;
                             }
 
