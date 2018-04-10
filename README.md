@@ -3,7 +3,7 @@ A lightweight but efficient commandline argument parser with a highly simple usa
 
 ### Efficient and flexible
 XenoParse is capable of parsing commandline arguments of the current process and handle them properly.
-You can one or multiple argument definitions (synonymous meanings) on your own. Each argument will get its own callback function, which will get invoked once Parse(args) gets called.  
+You can add one or multiple argument definitions (synonymous meanings) on your own. Each argument will get its own callback function, which will get invoked once Parse(args) gets called.  
 
 ### Formatting argument definitions
 Argument definitions will be passed through the function "AddAction". If you're planning to add multiple arguments with the same meaning, you can use the '|' seperator instead of calling "AddAction" all the time.
