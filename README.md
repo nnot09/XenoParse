@@ -15,7 +15,7 @@ Arguments might also require a parameter to perform some action. Once your callb
 You can also add a "single" argument definition, which doesn't require an additional argument at all. Simply set the parameter "requiredExtraArgument" while passing the parameters to "AddAction" to false.
 
 ### Casts
-The first parameter of your callback (type of 'object') can be casted safely to 'XenoParse' The caller passes a this-reference of its own object to the sender parameter.  
+The first parameter of your callback (type of 'object') can be casted safely to 'XenoParse'. The caller passes a this-reference of its own object to the sender parameter.  
 
 ### Screenshot
 ![alt text](https://i.gyazo.com/b2c8464c7d871deb03094b1ce2f9fd70.png)
